@@ -85,7 +85,7 @@ nav ul li a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url('/Demon-SlayerThemes/15259.jpg') no-repeat center center;
+    background: url('../Demon-SlayerThemes/15259.jpg') no-repeat center center;
     background-size: cover; 
     text-align: center;
     position: relative;
