@@ -1,153 +1,300 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link rel="stylesheet" href="/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
     <header>
-        <div class="container">
-            <div class="logo"><a href="#">Portfolio</a></div>
-            <nav>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About me</a></li>
-                    <li><a href="#experience">Experience</a></li>
-                    <li><a href="#contact">Contact me</a></li>
-                </ul>
-            </nav>
-        </div>
-        <div class="header-line"></div>
+      <div class="container">
+        <div class="logo"><a href="#">NS</a></div>
+        <nav class="nav-menu">
+          <ul>
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
     <section id="home" class="me-section">
-        <div class="background-container">
-            <div class="content">
-                <h1 class="animated-text">Hi, There!</h1>
-                <p class="animated-text">Welcome to my Portfolio.</p>
-                <p class="animated-text">My name is <span class="name">Nikhil Shrivastava</span></p>
-                <p class="animated-text">And I'm a <span class="highlight">Software developer</span></p>
-            </div>
+      <div class="background-container">
+        <div class="content">
+          <h1 class="animated-text">Hi, There!</h1>
+          <p class="animated-text">Welcome to my Portfolio.</p>
+          <p class="animated-text">
+            My name is <span class="name">Nikhil Shrivastava</span>
+          </p>
+          <p class="animated-text">
+            And I'm a <span class="highlight">Software developer</span>
+          </p>
         </div>
+      </div>
     </section>
 
     <section id="about" class="about-section">
-        <img src="/Demon-SlayerThemes/IMG_20230615_190622.jpg" alt="Nikhil Shrivastava" class="profile-photo">
-        <div class="about-content">
-            <h1>About Me</h1>
-            <p>A Passionate Software Engineer specialized in backend development who likes coding, building backend web-app services, and brain-storming.</p>
-        </div>
+      <img
+        src="/Demon-SlayerThemes/IMG_20230615_190622.jpg"
+        alt="Nikhil Shrivastava"
+        class="profile-photo"
+      />
+      <div class="about-content">
+        <h1>About Me</h1>
+        <p>
+          A Passionate Software Engineer specialized in backend development who
+          likes coding, building backend web-app services, and brain-storming.
+        </p>
+      </div>
+      <br />
+      <button>
+        <a
+          href="https://drive.google.com/file/d/1BawlBokDIK7FeXOVLpXoMxLgSOZq3j_q/view?usp=drive_link"
+          >Download Me</a
+        >
+      </button>
     </section>
 
     <section id="experience" class="experience-section">
-        <div class="experience-content">
-            <h1>Experience</h1>
-            <div class="experience-tree">
-                <div class="company">
-                    <img src="/Demon-SlayerThemes/TCS_Logo.jpg" alt="TCS Logo" class="company-logo">
-                    <div class="clients-show-client">
-                        <div class="client">
-                            <img src="./Demon-SlayerThemes/IBM-Simbolo.png" alt="IBM Logo" class="company-logo">
-                            <ul>
-                                <li>Refactored codebase to meet evolving business requirements, enhancing code maintainability and performance.</li>
-                                <li>Built REST API services and feature developments in PHP.</li>
-                                <li>Bug-fixing, code reviews, and documentation.</li>
-                                <li>Analyzed and optimized critical bugs of the code, reducing execution time by 90% and improving resource utilization.</li>
-                                <li>Monitored Grafana and created weekly reports, provided on-call support.</li>
-                                <li>Collaborated with cross-functional teams to identify business needs and translate them into technical requirements for code improvements. This Agile-focused strategy achieved a 60% increase in development growth.</li>
-                                <li>Enhanced performance and response time of the web service by 75%.</li>
-                                <li>Led the upgrade of the jQuery version across the codebase, improving security, performance, and compatibility with other web services on production.</li>
-                                <li>Utilized Golang to develop robust and efficient code for the CLI application, ensuring seamless integration with ADFS for user authentication.</li>
-                            </ul>
-                        </div>
-                        <div class="client">
-                            <img src="/Demon-SlayerThemes/SAP_logo.png" alt="SAP Logo" class="company-logo">
-                            <ul>
-                                <li>Handled and resolved escalated issues from customers, ensuring timely responses and solutions.</li>
-                                <li>Managed and troubleshooted server-side issues.</li>
-                                <li>Created and managed tasks raised by customers, coordinating with developers and other teams.</li>
-                                <li>Training and mentorship.</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <div class="experience-content">
+        <h1>Experience</h1>
+      </div>
+      <div class="experience-tree">
+        <div class="tcs-logo-container">
+          <div class="company">
+            <img
+              src="/Demon-SlayerThemes/TCS_Logo.jpg"
+              alt="TCS Logo"
+              class="company-logo"
+            />
+          </div>
         </div>
+        <div class="clients-show-client">
+          <div class="client">
+            <img
+              src="/Demon-SlayerThemes/IBM-Simbolo.png"
+              alt="IBM Logo"
+              class="company-logo"
+            />
+            <ul
+              style="
+                text-align: justify;
+                list-style-type: disc;
+                padding: 10px;
+                margin: 0;
+                font-size: 1.1em;
+              "
+            >
+              <li>
+                Refactored codebase to meet evolving business requirements,
+                enhancing code maintainability and performance.
+              </li>
+              <li>Built REST API services and feature developments in PHP.</li>
+              <li>Bug-fixing, code reviews, and documentation.</li>
+              <li>
+                Analyzed and optimized critical bugs of the code, reducing
+                execution time by 90% and improving resource utilization.
+              </li>
+              <li>
+                Monitored Grafana and created weekly reports, provided on-call
+                support.
+              </li>
+              <li>
+                Collaborated with cross-functional teams to identify business
+                needs and translate them into technical requirements for code
+                improvements. This Agile-focused strategy achieved a 60%
+                increase in development growth.
+              </li>
+              <li>
+                Enhanced performance and response time of the web service by
+                75%.
+              </li>
+              <li>
+                Led the upgrade of the jQuery version across the codebase,
+                improving security, performance, and compatibility with other
+                web services on production.
+              </li>
+              <li>
+                Utilized Golang to develop robust and efficient code for the CLI
+                application, ensuring seamless integration with ADFS for user
+                authentication.
+              </li>
+            </ul>
+          </div>
+          <div class="client">
+            <img
+              src="/Demon-SlayerThemes/SAP_logo.png"
+              alt="SAP Logo"
+              class="company-logo"
+            />
+            <ul
+              style="
+                text-align: justify;
+                list-style-type: disc;
+                padding: 0;
+                margin: 0;
+                font-size: 1.1em;
+              "
+            >
+              <li>
+                Handled and resolved escalated issues from customers, ensuring
+                timely responses and solutions.
+              </li>
+              <li>Managed and troubleshooted server-side issues.</li>
+              <li>
+                Created and managed tasks raised by customers, coordinating with
+                developers and other teams.
+              </li>
+              <li>Training and mentorship.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section id="projects" class="projects-section">
-        <div class="projects-content">
-            <h1>Projects</h1>
-            <div class="projects-grid">
-                <a href="https://github.com/Nikhils-179/TODO" class="project-link" target="_blank">
-                    <div class="project">
-                        <img src="/Demon-SlayerThemes/TODO_Logo.jpg" alt="Project 1" class="project-image">
-                        <h3>Project 1</h3>
-                        <p>A TODO Application using Golang</p>
-                        <p class="project-tech-stack">Tech Stack: Golang, REST</p>
-                    </div>
-                </a>
-                <a href="https://github.com/Nikhils-179/go-jwt" class="project-link" target="_blank">
-                    <div class="project">
-                        <img src="/Demon-SlayerThemes/User_Auth.jpeg" alt="Project 2" class="project-image">
-                        <h3>Project 2</h3>
-                        <p>Developed a User Authentication System.</p>
-                        <p class="project-tech-stack">Tech Stack: Golang, REST, JWT Authentication</p>
-                    </div>
-                </a>
-                <a href="https://github.com/Nikhils-179/go-chat-application" class="project-link" target="_blank">
-                    <div class="project">
-                        <img src="/Demon-SlayerThemes/001.jpg" alt="Project 3" class="project-image">
-                        <h3>Project 3</h3>
-                        <p>Implemented a real-time chat application with WebSocket and Gin framework in Golang.</p>
-                        <p class="project-tech-stack">Tech Stack: Golang, WebSocket, Gin</p>
-                    </div>
-                </a>
-                <a href="https://github.com/Nikhils-179/gRPC-User-Service" class="project-link" target="_blank">
-                    <div class="project">
-                        <img src="/Demon-SlayerThemes/EMP.webp" alt="Project 4" class="project-image">
-                        <h3>Project 4</h3>
-                        <p>Developed an Employee Management system with gRPC and Protobuf in Golang.</p>
-                        <p class="project-tech-stack">Tech Stack: Golang, gRPC, Protobuf</p>
-                    </div>
-                </a>
-                <a href="https://github.com/Nikhils-179/Swagger-Gin-Api" class="project-link" target="_blank">
-                    <div class="project">
-                        <img src="/Demon-SlayerThemes/swagger6360.jpg" alt="Project 5" class="project-image">
-                        <h3>Project 5</h3>
-                        <p>Documentation and testing of REST API using Swagger.</p>
-                        <p class="project-tech-stack">Tech Stack: Golang, REST, Swagger.io</p>
-                    </div>
-                </a>
-                <a href="https://github.com/Nikhils-179/Razorpayintegration-pj1" class="project-link" target="_blank">
-                    <div class="project">
-                        <img src="/Demon-SlayerThemes/OIP.jpeg" alt="Project 6" class="project-image">
-                        <h3>Project 6</h3>
-                        <p>RazorPay Integration Project.</p>
-                        <p class="project-tech-stack">Tech Stack: Golang, Razorpay Payment Gateway</p>
-                    </div>
-                </a>
+      <div class="projects-content">
+        <h1>Projects</h1>
+        <div class="projects-grid">
+          <a
+            href="https://github.com/Nikhils-179/TODO"
+            class="project-link"
+            target="_blank"
+          >
+            <div class="project">
+              <img
+                src="/Demon-SlayerThemes/TODO_Logo.jpg"
+                alt="Project 1"
+                class="project-image"
+              />
+              <h3>Project 1</h3>
+              <p>A TODO Application using Golang</p>
+              <p class="project-tech-stack">Tech Stack: Golang, REST</p>
             </div>
+          </a>
+          <a
+            href="https://github.com/Nikhils-179/go-jwt"
+            class="project-link"
+            target="_blank"
+          >
+            <div class="project">
+              <img
+                src="/Demon-SlayerThemes/User_Auth.jpeg"
+                alt="Project 2"
+                class="project-image"
+              />
+              <h3>Project 2</h3>
+              <p>Developed a User Authentication System.</p>
+              <p class="project-tech-stack">
+                Tech Stack: Golang, REST, JWT Authentication
+              </p>
+            </div>
+          </a>
+          <a
+            href="https://github.com/Nikhils-179/Simple-chat-app"
+            class="project-link"
+            target="_blank"
+          >
+            <div class="project">
+              <img
+                src="/Demon-SlayerThemes/001.jpg"
+                alt="Project 3"
+                class="project-image"
+              />
+              <h3>Project 3</h3>
+              <p>
+                Implemented a real-time chat application with WebSocket and Gin
+                framework in Golang.
+              </p>
+              <p class="project-tech-stack">
+                Tech Stack: Golang, WebSocket, Gin
+              </p>
+            </div>
+          </a>
+          <a
+            href="https://github.com/Nikhils-179/gRPC-User-Service"
+            class="project-link"
+            target="_blank"
+          >
+            <div class="project">
+              <img
+                src="/Demon-SlayerThemes/EMP.webp"
+                alt="Project 4"
+                class="project-image"
+              />
+              <h3>Project 4</h3>
+              <p>
+                Developed an Employee Management system with gRPC and Protobuf
+                in Golang.
+              </p>
+              <p class="project-tech-stack">
+                Tech Stack: Golang, gRPC, Protobuf
+              </p>
+            </div>
+          </a>
+          <a
+            href="https://github.com/Nikhils-179/Swagger-Gin-Api"
+            class="project-link"
+            target="_blank"
+          >
+            <div class="project">
+              <img
+                src="/Demon-SlayerThemes/swagger6360.jpg"
+                alt="Project 5"
+                class="project-image"
+              />
+              <h3>Project 5</h3>
+              <p>Documentation and testing of REST API using Swagger.</p>
+              <p class="project-tech-stack">
+                Tech Stack: Golang, REST, Swagger.io
+              </p>
+            </div>
+          </a>
+          <a
+            href="https://github.com/Nikhils-179/Razorpayintegration-pj1"
+            class="project-link"
+            target="_blank"
+          >
+            <div class="project">
+              <img
+                src="/Demon-SlayerThemes/OIP.jpeg"
+                alt="Project 6"
+                class="project-image"
+              />
+              <h3>Project 6</h3>
+              <p>RazorPay Integration Project.</p>
+              <p class="project-tech-stack">
+                Tech Stack: Golang, Razorpay Payment Gateway
+              </p>
+            </div>
+          </a>
         </div>
+      </div>
     </section>
 
     <section id="contact" class="contact-section">
-        <div class="contact-content">
-            <h1>Contact Me</h1>
-            <form action="https://api.web3forms.com/submit" method="POST">
-                <input type="hidden" name="access_key" value="373a0fc0-0abe-41c2-a6bb-619a76203bf2">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="5" required></textarea>
-                <button type="submit">Send Message</button>
-            </form>
-        </div>
+      <div class="contact-content">
+        <h1>Contact Me</h1>
+        <form action="https://api.web3forms.com/submit" method="POST">
+          <input
+            type="hidden"
+            name="access_key"
+            value="373a0fc0-0abe-41c2-a6bb-619a76203bf2"
+          />
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
     </section>
     <script src="/script.js"></script>
-</body>
+  </body>
 </html>
